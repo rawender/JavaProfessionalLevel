@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        try (FileInputStream in = new FileInputStream("Files/dz2Text")) {
+        try (FileInputStream in = new FileInputStream("Files/dz2Text.txt")) {
             byte[] arr = new byte[(int)in.getChannel().size()];
             int x;
 
